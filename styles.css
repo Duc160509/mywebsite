@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 400px;
+}
+
+.rose {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.petal {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #e74c3c;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+}
+
+.petal1 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(0deg);
+}
+
+.petal2 {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.petal3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.petal4 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(270deg);
+}
+
+.center {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #c0392b;
+    border-radius: 50%;
+    top: 20%;
+    left: 20%;
+}
+
+.stem {
+    position: absolute;
+    width: 20px;
+    height: 150px;
+    background: #27ae60;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.leaf {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background: #2ecc71;
+    border-radius: 50%;
+    transform: rotate(-30deg);
+}
+
+.leaf1 {
+    top: 50px;
+    left: -40px;
+}
+
+.leaf2 {
+    top: 50px;
+    left: 20px;
+    transform: rotate(30deg);
+}
